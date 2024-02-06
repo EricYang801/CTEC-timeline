@@ -21,10 +21,10 @@
       var max, min;
       var pos = $(this).scrollTop();
       selectors.item.each(function (i) {
-        min = $(this).offset().top;
-        max = $(this).height() + $(this).offset().top;
+        min = $(this).offset().top - 300;
+        max = $(this).height() + $(this).offset().top - 300;
         var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 3) {
+        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.id.css(
             "background-image",
