@@ -24,7 +24,7 @@
         min = $(this).offset().top;
         max = $(this).height() + $(this).offset().top;
         var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+        if (i == itemLength - 2 && pos > min + $(this).height() / 3) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.id.css(
             "background-image",
