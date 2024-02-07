@@ -150,7 +150,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(99, 99, 99, 0.1);
+  background: rgba(99, 99, 99, 0.45);
   /*調整背景透明度*/
   content: "";
 }
@@ -178,7 +178,8 @@
 }
 
 .demo-footer a {
-  color: #999;
+  color: #000000;
   display: inline-block;
   font-family: Cardo;
+  font-size: 30px;
 }
