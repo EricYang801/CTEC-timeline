@@ -132,13 +132,15 @@
 
 .timeline-container {
   width: 100%;
+  height: 100%;
   position: relative;
   padding: 80px 0;
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover;
   background-position: center;
-  -webkit-background-size: auto;
+
 }
 
 .timeline-container:before {
